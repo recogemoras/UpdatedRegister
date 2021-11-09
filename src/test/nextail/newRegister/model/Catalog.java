@@ -1,7 +1,7 @@
 package nextail.newRegister.model;
 
-public interface Catalog {
-    void addCatalogItem(Item item);
+public interface Catalog() {
+   void addProduct(Item item);
 
-    void addCatalogPromotions(PricingRules pricingRules);
+   int getProductPrice(Item item);
 }
